@@ -54,8 +54,8 @@ python ~/.config/awesome/email/read_emails.py
 
 Currently, the following arguments are supported when creating the widget:
 
-    - `count_cmd` (mandatory): Command which should print the number of unread mails to stdout
-    - `read_cmd` (mandatory): Command which should print unread mails (or a summary or whatever info you want to be displayed) to stdout
-    - `interval`: Interval (in seconds) for calling `count_cmd` and thus updating the count (default = `20`)
-    - `font`: Font to use for the count (defaults to your default for awesome text widgets)
-    - `display_width`: Width of the popup for displaying your unread mails (default = `400`)
+  - `count_cmd` (mandatory): Command which should print the number of unread mails to stdout
+  - `read_cmd` (mandatory): Command which should print unread mails (or a summary or whatever info you want to be displayed) to stdout
+  - `interval`: Interval (in seconds) for calling `count_cmd` and thus updating the count (default = `20`)
+  - `font`: Font to use for the count (defaults to your default for awesome text widgets)
+  - `display_width`: Width of the popup for displaying your unread mails (default = `400`)
